@@ -1,0 +1,20 @@
+{
+  "name": "bistro4.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:bar-service": "cd bar-service && npm install",
+    "install:kitchen-service": "cd kitchen-service && npm install",
+    "install:order-service": "cd border-service && npm install",
+    "install:all": "npm run install:bar-service && npm run install:kitchen-service && npm run install:order-service",
+    "start:bar-service": "cd bar-service && npm run start",
+    "start:kitchen-service": "cd kitchen-service && npm run start",
+    "start:order-service": "cd border-service && npm run start",
+    "start:all": "npm run start:bar-service && npm run start:kitchen-service && npm run start:order-service"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
